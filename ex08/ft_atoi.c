@@ -6,11 +6,11 @@
 /*   By: dabeloos <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/12 08:19:02 by dabeloos          #+#    #+#             */
-/*   Updated: 2018/08/12 08:21:43 by dabeloos         ###   ########.fr       */
+/*   Updated: 2018/08/12 14:21:53 by dabeloos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_atoi(const char *str)
+int		ft_atoi(char *str)
 {
 	int		result;
 	int		sign;
