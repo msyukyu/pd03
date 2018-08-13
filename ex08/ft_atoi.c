@@ -6,7 +6,7 @@
 /*   By: dabeloos <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/12 08:19:02 by dabeloos          #+#    #+#             */
-/*   Updated: 2018/08/12 14:21:53 by dabeloos         ###   ########.fr       */
+/*   Updated: 2018/08/13 14:57:07 by dabeloos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ int		ft_atoi(char *str)
 	}
 	while (str[i] >= '0' && str[i] <= '9')
 	{
-		result = result * 10 + str[i] - '0';
+		result = result * 10 + sign * (str[i] - '0');
 		i++;
 	}
-	return (sign * result);
+	return (result);
 }
